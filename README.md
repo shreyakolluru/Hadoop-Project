@@ -57,28 +57,7 @@ MovieLens 100k Data Analysis Project
 
 This architecture ensures that the dataset is efficiently ingested, processed, and exported, demonstrating the versatility and power of the Hadoop ecosystem in handling large-scale data processing tasks. Each component is utilized to its strengths, providing a comprehensive overview of big data processing techniques.
 
-### Setting Up and Running the Project Locally
 
-To set up and run this project locally, follow these steps:
-
-#### Prerequisites
-
-1. **Hortonworks Data Platform (HDP)**: Ensure you have HDP installed on your local machine. You can download the sandbox from the [Hortonworks website](https://www.cloudera.com/downloads/hortonworks-sandbox.html).
-2. **Virtualization Software**: Install a virtualization software like VirtualBox or VMware to run the HDP sandbox.
-3. **SSH Client**: Use an SSH client like PuTTY (for Windows) or terminal (for Mac/Linux) to connect to the sandbox.
-
-#### Step-by-Step Setup
-
-1. **Download and Set Up HDP Sandbox**:
-   - Download the HDP sandbox from the Hortonworks website.
-   - Import the sandbox into your virtualization software and start the virtual machine.
-
-2. **Access the HDP Sandbox**:
-   - Use an SSH client to connect to the sandbox.
-   - The default username is `maria_dev`, and the password is usually `maria_dev`.
-
-3. **Upload Data to HDP Sandbox**:
-   - Use the `scp` command to transfer data from your local machine to the sandbox.
      ```bash
      scp -P <num> /local/path/to/dataset maria_dev@<sandbox-ip>:/sandbox/path
      ```
