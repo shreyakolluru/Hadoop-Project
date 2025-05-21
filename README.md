@@ -1,4 +1,4 @@
-# MOVIELENS - HADOOP Project
+# HADOOP Project
 
 ## Project Overview
 
